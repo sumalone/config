@@ -1,6 +1,7 @@
 # Development Configuration
 
 ## Packages to Install
+```
 cmake
 eza
 fd
@@ -22,6 +23,7 @@ zoxide
 neovim
 atuin
 starship
+```
 
 ## Setup `tmux`
 
