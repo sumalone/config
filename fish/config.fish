@@ -13,6 +13,7 @@ set -gx STARSHIP_CONFIG ~/.config/starship/starship.toml
 set -gx fish_greeting # disable greeting
 
 set -gx PATH /run/user/1000/fnm_multishells/9375_1728344072754/bin $PATH
+set -gx PATH  $HOME/.local/share/bob/nvim-bin $PATH
 set -gx FNM_MULTISHELL_PATH /run/user/1000/fnm_multishells/9375_1728344072754
 set -gx FNM_VERSION_FILE_STRATEGY local
 set -gx FNM_DIR "/home/cama/.local/share/fnm"

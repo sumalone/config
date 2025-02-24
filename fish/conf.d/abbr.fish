@@ -1,11 +1,13 @@
 # program abbrs
 abbr vim nvim
 abbr lg lazygit
+abbr lado lazydocker
 
 # git
 abbr gco "git checkout"
 abbr gcb "git checkout -b"
 abbr glo "git log --oneline --all"
+abbr gfap "git fetch --all --prune"
 
 # place abbrs
 abbr dot "z dotfiles && nvim"
