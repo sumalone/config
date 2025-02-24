@@ -19,6 +19,9 @@ return {
         gleam = {},
         vtsls = {},
         ruff_lsp = {},
+        gopls = {
+          settings = { gopls = { analyses = { fieldalignment = false } } },
+        },
       },
       setup = {
         rust_analyzer = function()
